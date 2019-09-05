@@ -239,5 +239,6 @@ Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
     </build>
   <modules>
     <module>dao-api</module>
+    <module>dao-impl</module>
   </modules>
 </project>

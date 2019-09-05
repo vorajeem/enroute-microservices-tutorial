@@ -11,7 +11,7 @@ import org.osgi.enroute.examples.microservice.dao.dto.PersonDto;
  */
 @ProviderType
 public interface PersonDao {
-	public List<PersonDao> select();
+	public List<PersonDto> select();
 	public PersonDto findByPk(Long pk);
 	public Long save(PersonDto data);
 	public void update(PersonDto data);
