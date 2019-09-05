@@ -3,6 +3,7 @@
  */
 package org.osgi.enroute.examples.microservice.dao;
 import org.osgi.annotation.versioning.ProviderType;
+import org.osgi.enroute.examples.microservice.dao.dto.AddressDto;
 import java.util.List;
 
 /**
